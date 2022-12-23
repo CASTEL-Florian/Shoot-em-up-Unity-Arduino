@@ -501,8 +501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea4b6809cb5364418605647367714e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  shootings: []
+  controller: {fileID: 3596556787880600668}
+  shootings:
+  - {fileID: 1252755317431924487}
   avatar: {fileID: 0}
   hitManager: {fileID: 0}
   pauseMenu: {fileID: 0}
@@ -522,6 +523,7 @@ MonoBehaviour:
   serialPort: COM6
   baudrate: 115200
   movement: {fileID: 3596556787880600668}
+  player: {fileID: 1520358944943381337}
 --- !u!1 &4308507920344652757
 GameObject:
   m_ObjectHideFlags: 0
