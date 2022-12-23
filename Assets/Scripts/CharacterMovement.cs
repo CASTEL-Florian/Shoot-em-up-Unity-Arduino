@@ -11,7 +11,6 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private SerialHandler serialHandler;
     public void Move(Vector2 move)
     {
-        Vector3 targetVelocity = move;
         rb.velocity = move;
     }
 
