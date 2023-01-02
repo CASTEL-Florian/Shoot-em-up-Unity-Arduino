@@ -16,7 +16,8 @@ public class CharacterMovement : MonoBehaviour
 
     public IEnumerator Dodge(float speed, float duration)
     {
-        serialHandler.SendDashMessage();
+        if (serialHandler)
+            serialHandler.SendDashMessage();
         if (rb.velocity.magnitude > 0 && !energyManager.isFullReloading())
         {
             energyManager.UseEnergy(dashEnergy);

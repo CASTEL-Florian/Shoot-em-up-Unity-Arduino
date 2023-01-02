@@ -921,6 +921,7 @@ MonoBehaviour:
   objectFade: {fileID: 1711442762}
   nextSceneId: 3
   levelId: 2
+  musicVolume: 0.5
 --- !u!4 &1711442761
 Transform:
   m_ObjectHideFlags: 0
@@ -1379,6 +1380,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1520358944943381337, guid: 7a318dfcb784c9e44adacf94865a40ae, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 399049219}
     - target: {fileID: 3596556787880600658, guid: 7a318dfcb784c9e44adacf94865a40ae, type: 3}
       propertyPath: m_Name
       value: Player

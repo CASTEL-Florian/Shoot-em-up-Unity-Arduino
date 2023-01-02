@@ -1253,6 +1253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1520358944943381337, guid: 7a318dfcb784c9e44adacf94865a40ae, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1742963180}
     - target: {fileID: 3596556787880600658, guid: 7a318dfcb784c9e44adacf94865a40ae, type: 3}
       propertyPath: m_Name
       value: Player

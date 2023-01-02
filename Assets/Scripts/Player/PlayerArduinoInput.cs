@@ -18,6 +18,7 @@ public class PlayerArduinoInput : MonoBehaviour
     private void Start()
     {
         speed = avatar.GetSpeed();
+        shootings[currentShooting].SetActive(true);
     }
     private void Awake()
     {
@@ -37,10 +38,7 @@ public class PlayerArduinoInput : MonoBehaviour
         controls.Disable();
     }
 
-    private void Update()
-    {
-        shootings[currentShooting].SetActive(controls.Player.Shoot.ReadValue<float>() == 1);
-    }
+
     private void FixedUpdate()
     {
         if (controller.IsDashing())

@@ -107,8 +107,6 @@ GameObject:
   - component: {fileID: 4554294883947122548}
   - component: {fileID: 5297084225660785836}
   - component: {fileID: 2352423632368214043}
-  - component: {fileID: 1252755317431924487}
-  - component: {fileID: 2571579097297609549}
   - component: {fileID: 6058682737093402880}
   - component: {fileID: 3476325783076995458}
   - component: {fileID: 1758705436881963807}
@@ -291,60 +289,11 @@ MonoBehaviour:
   bulletName: playerBullet1
   avatar: {fileID: 0}
   bulletVelocity: 30
-  shotEnergyCost: 0.1
+  shotEnergyCost: 0
   rateOverTime: 9
   energyManager: {fileID: 1758705436881963807}
   audioSource: {fileID: 3008965725281593866}
   angleBetweenShots: 0
-  numberOfShotsCircle: 1
-  shootInNegativeAngle: 0
---- !u!114 &1252755317431924487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596556787880600658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33afd3e5f71366e43affc11222092fe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoints:
-  - {fileID: 7694190248440689422}
-  - {fileID: 4378801293205751555}
-  bulletName: playerBullet1
-  avatar: {fileID: 0}
-  bulletVelocity: 30
-  shotEnergyCost: 0.15
-  rateOverTime: 7
-  energyManager: {fileID: 1758705436881963807}
-  audioSource: {fileID: 3008965725281593866}
-  angleBetweenShots: 0
-  numberOfShotsCircle: 1
-  shootInNegativeAngle: 0
---- !u!114 &2571579097297609549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596556787880600658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33afd3e5f71366e43affc11222092fe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoints:
-  - {fileID: 6308796053933725344}
-  bulletName: playerBullet1
-  avatar: {fileID: 0}
-  bulletVelocity: 20
-  shotEnergyCost: 0.05
-  rateOverTime: 20
-  energyManager: {fileID: 1758705436881963807}
-  audioSource: {fileID: 3008965725281593866}
-  angleBetweenShots: 10
   numberOfShotsCircle: 1
   shootInNegativeAngle: 0
 --- !u!58 &6058682737093402880
@@ -503,9 +452,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 3596556787880600668}
   shootings:
-  - {fileID: 1252755317431924487}
-  avatar: {fileID: 0}
-  hitManager: {fileID: 0}
+  - {fileID: 2352423632368214043}
+  avatar: {fileID: 3476325783076995458}
+  hitManager: {fileID: 4554294883947122548}
   pauseMenu: {fileID: 0}
   maxAngle: 45
 --- !u!114 &6144715881266629853
